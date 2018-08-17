@@ -17,7 +17,7 @@ microsat [-a anc_state] [-l n_linked_sites theta_prop1 ... theta_prop_n] [-i]
 Options:<br>
 The -a flag sets the ancestral STR repeat size (i.e., an integer such as 15).  The default ancestral state is 0.
 
-The -l flag turns on multiple fully-linked STRs.  The default is a single STR locus.  The user can define an arbitrary number of linked STRs ('n_linked_sites'), but must specify the proportion of \theta assignable to each STR locus. The simulation $\theta$ value (used by *ms*) should be the sum of individual $\theta$ values for each locus.
+The -l flag turns on multiple fully-linked STRs.  The default is a single STR locus.  The user can define an arbitrary number of linked STRs ('n_linked_sites'), but must specify the proportion of &theta; assignable to each STR locus. The simulation $\theta$ value (used by *ms*) should be the sum of individual $\theta$ values for each locus.
 
 The -i flag outputs a format suitable, with slight modification, for use with [Jody Hey](https://bio.cst.temple.edu/~hey/)'s [IM](https://bio.cst.temple.edu/~hey/software).  The default output is a tab-delimited array of microsatellites written to a single line.
 
