@@ -29,4 +29,3 @@ Example:
 ms 10 5 -t 4.0 | microsat -a 30 -l 2 0.4 0.6 > msat.dat
 ```
 
-Author: [Murray Cox](https://www.genomicus.com)
